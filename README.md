@@ -1,4 +1,5 @@
-# 
+# Clinical Variable Selection
+
 This repository includes scripts for feature selection applied to identify main clinical features for predicting mortality in COVID-19 patients.
 
 Publication:
@@ -9,5 +10,6 @@ Alina S\^irbu, Greta Barbieri, Francesco Faita, Paolo Ferragina, Luna Gargani,  
 
 Files:
 
-featuresSelection.py : script to perform the internal wrapper feature selection stage.
+featureSelection.py : script to perform the internal wrapper feature selection stage.
+
 combineRuns.py : script to merge the individual genetic algorithm solutions into the final ranking.
