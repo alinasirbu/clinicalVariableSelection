@@ -187,7 +187,8 @@ fold=sys.argv[1] #####PASS FOLD AS COMMAND LINE PARAMETER
 nF=sys.argv[2] #####PASS NUMBER OF FEATURES AS COMMAND LINE PARAMETER
 
 
-x,y,patients,features=pkl.load(open('trainDataNoSCNoImagingFold'+str(fold)+'.pkl','rb'))
+#LOAD TRAINING DATA FOR THIS FOLD
+x,y,patients,features=pkl.load(open('trainDataFold'+str(fold)+'.pkl','rb'))
 
 x=preprocessing.scale(x)
 
