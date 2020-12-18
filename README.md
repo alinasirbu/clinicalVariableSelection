@@ -10,6 +10,6 @@ Alina S\^irbu, Greta Barbieri, Francesco Faita, Paolo Ferragina, Luna Gargani,  
 
 Files:
 
-featureSelection.py : script to perform the internal wrapper feature selection stage.
+featureSelectionScript.py : script to perform the internal wrapper feature selection stage.
 
 combineRuns.py : script to merge the individual genetic algorithm solutions into the final ranking.
